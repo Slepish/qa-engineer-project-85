@@ -1,0 +1,80 @@
+---
+- summary: |
+    Проверка регистрации по имейл
+  status: pass
+
+- summary: |
+    Проверка авторизации по имейл
+  status: pass
+
+- summary: |
+    Проверка авторизации через GitHub
+  status: pass
+
+- summary: |
+    Проверка авторизации через Discord
+  status: pass
+
+- summary: |
+    Проверка создания игры без регистрации
+  status: pass
+
+- summary: |
+    Проверка создания игры
+  status: pass
+
+- summary: |
+    Проверка создания игры с ботом
+  status: pass
+
+- summary: |
+    Проверка создания игры с другом
+  status: pass
+
+- summary: |
+    Проверка создания игры с указанным уровнем сложности
+  status: pass
+
+- summary: |
+    Проверка создания игры с случайной задачей
+  status: pass
+
+- summary: |
+    Проверка создания игры с конкретной задачей
+  status: pass
+
+- summary: |
+    Проверка создания игры с заданным временем
+  status: pass
+
+- summary: |
+    Проверка переподключения к игре
+  status: pass
+
+- summary: |
+    Проверка возможности проверки решения
+  status: pass
+
+- summary: |
+    Проверка возможности проверки решения несколько раз
+  status: pass
+
+- summary: |
+    Проверка сдачи в игре
+  status: pass
+
+- summary: |
+    Проверка победы в игре
+  status: pass
+
+- summary: |
+    Проверка отображения обратного отсчета об окончании игры
+  status: pass
+
+- summary: |
+    Проверка отправки сообщения в чат
+  status: pass
+
+- summary: |
+    Проверка смены ника в профиле
+  status: pass
