@@ -77,21 +77,6 @@
     Создалась игра
 
 - summary: |
-    Проверка создания игры
-  requirement: |
-    Пользователь может создавать игру
-  prerequisites: |
-    Пользователь авторизован
-  test-data: |
-    no data
-  steps:
-    - Нажимаем на кнопку "Create a game"
-    - Параметры игры не меняем  
-    - Нажимаем на кнопку "Create battle"
-  expected-result: |
-    Создалась игра 
-
-- summary: |
     Проверка создания игры с ботом
   requirement: |
     Пользователь может создавать игру с ботом
@@ -113,12 +98,11 @@
   prerequisites: |
     Пользователь 2 добавлен в друзья для проверки создания игры
   test-data: |
-    no data
+    Данные для авторизации Пользователя 2
   steps:
     - Нажимаем на кнопку "Create a game"
     - В разделе "Game Type" выбрать "With a friend"
     - Выбираем Пользователя 2 в разделе "Choose opponent"
-    - Остальные параметры игры не меняем
     - Нажимаем на кнопку "Create battle"
     - Пользователь 2 принимает приглашение в игру
   expected-result: |
@@ -261,9 +245,11 @@
     - Игра идёт
     - Соперник не решает задачу
   test-data: |
-    no data
+    - Задача=rect_area
+    - Язык=NodeJS
+    - Код задачи='const _ = require("lodash"); const R = require("rambda"); const solution = (width, length) => { return width * length; }; module.exports = solution;'
   steps:
-    - Вводим правильное решение задачи
+    - Вставляем решение задачи
     - Нажимаем кнопку Run
   expected-result: |
     Игра завершена, пользователь выиграл
